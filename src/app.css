@@ -1,0 +1,98 @@
+@import "./assets/css/image.css";
+@import "./assets/css/button.css";
+@import "./assets/css/card.css";
+@import "./assets/css/list.css";
+@import "./assets/css/table.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f8f8;
+}
+
+.container {
+  height: 200vh;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 46px;
+  position: relative;
+}
+
+h1:before {
+  content: "";
+  position: absolute;
+  background-color: #000000;
+  width: 50px;
+  height: 4px;
+  top: 29px;
+  left: 29%;
+  border-radius: 5px;
+}
+
+h1:after {
+  content: "";
+  position: absolute;
+  background-color: #000000;
+  width: 50px;
+  height: 4px;
+  top: 29px;
+  right: 29%;
+  border-radius: 5px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+p {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  width: 80%;
+  margin: auto;
+  line-height: 1.4;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.my-15 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mx-5 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.col {
+  width: 33.33%;
+}
+
+.text-center {
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+.list-item .bullet {
+    position: relative;
+    list-style: none;
+}
+
+.list-item .bullet::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #f5cb5c;
+    left: -17px;
+    top: 8px;
+}

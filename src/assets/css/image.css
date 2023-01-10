@@ -1,0 +1,19 @@
+.full {
+    width: 100%;
+}
+
+.lg {
+    width: 80%;
+}
+
+.md {
+    width: 50%;
+}
+
+.sm {
+    width: 30%;
+}
+
+img {
+    border-radius: 5px;
+}
